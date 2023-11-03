@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1130D92E-55A7-4817-817F-1DE7042C4E17"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C37581C-C46E-4653-B746-D23E6B473729"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D79CC0D-4294-465C-8DF9-56CAFD462A78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getCharacterItems(action:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6191E888-4BD3-455A-A5A2-F1E6DFF2F152"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "SignUpVM"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64F23346-66EA-49BD-BADC-EBAD57AC8F55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53245682-5A2A-4294-B5B4-76D87A04B888"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpNickNameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53245682-5A2A-4294-B5B4-76D87A04B888 - 35f8493709b3a6be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpNickNameVC.setUpUI() -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "53245682-5A2A-4294-B5B4-76D87A04B888 - 8bcca997c17b5319"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpNickNameVC.viewDidLoad() -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E510B3B-8D13-4B5C-BB7E-6A064E30A055"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/UserProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E634C590-AA88-43FC-9607-E06AE7388E02"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpNickNameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "keyboardWillShow(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E634C590-AA88-43FC-9607-E06AE7388E02 - f17d8dc246427942"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpNickNameVC.keyboardWillShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "E634C590-AA88-43FC-9607-E06AE7388E02 - 9805da78386f7f97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in atoStudy.SignUpNickNameVC.keyboardWillShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "E634C590-AA88-43FC-9607-E06AE7388E02 - f17d8dc246427923"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpNickNameVC.keyboardWillShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "768">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEEB325E-961D-4C42-9DF0-C9B770635193"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEEB325E-961D-4C42-9DF0-C9B770635193 - ea9cf9343767490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpCharactersVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "DEEB325E-961D-4C42-9DF0-C9B770635193 - 833a3ff7b82a1f92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpCharactersVC.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54391463-79AA-4B87-9FF6-1514D80B2794"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "074094E4-0203-411C-BD99-5C7252C4F007"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B178DB6C-63CB-4C6C-8E02-45DFB005EC2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "scale(withCarouselInset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B178DB6C-63CB-4C6C-8E02-45DFB005EC2B - 5023b132ffa21110"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1348">
+               </Location>
+               <Location
+                  uuid = "B178DB6C-63CB-4C6C-8E02-45DFB005EC2B - 5023b132ffa21110"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1372">
+               </Location>
+               <Location
+                  uuid = "B178DB6C-63CB-4C6C-8E02-45DFB005EC2B - 5023b132ffa2136d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "1572">
+               </Location>
+               <Location
+                  uuid = "B178DB6C-63CB-4C6C-8E02-45DFB005EC2B - 5023b132ffa21427"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAEC5638-8481-4084-8540-12A41548ECD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "ScalingCarouselCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A - 77487d1391aba933"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scaleMinimum.getter : CoreGraphics.CGFloat"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A - dd44620d13c91ec7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scaleMinimum.setter : CoreGraphics.CGFloat"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A - b6cde97bcb6072b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scaleMinimum.modify : CoreGraphics.CGFloat"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A - 3d060f3206bb8a65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scaleMinimum.modify : CoreGraphics.CGFloat with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A - dbcec851e51aa3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.init(frame: __C.CGRect) -&gt; atoStudy.ScalingCarouselCell"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "56FFB798-E03E-4C15-974F-89D5AF9F4B2A - f7b17b8969a88ad9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;atoStudy.ScalingCarouselCell&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73461BF3-E0D8-4C44-9559-1AB83A7EAD63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB45A7EE-E26D-4D2B-A107-923031AD00DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "addInvisibleScrollView(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DC6B46C-D7DD-49DD-B006-AD10B6E99E63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "scrollRectToVisible(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ScalingCarouselView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4 - 6547a4459f11f919"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselView.lastCurrentCenterCellIndex.getter : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4 - fd2671443a416b95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselView.lastCurrentCenterCellIndex.setter : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4 - f7f19aac802f34ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselView.lastCurrentCenterCellIndex.modify : Swift.Optional&lt;Foundation.IndexPath&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4 - eb534728333df6ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselView.lastCurrentCenterCellIndex.modify : Swift.Optional&lt;Foundation.IndexPath&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4 - 924a9ee5e5540689"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselView.init(frame: __C.CGRect, collectionViewLayout: __C.UICollectionViewLayout) -&gt; atoStudy.ScalingCarouselView"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "EA144660-F169-47FB-9306-A69B7A16DFE4 - f11145c44fcfb290"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;atoStudy.ScalingCarouselView&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28F1AEDC-5DBD-43AE-97D2-68FAD6FF47B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "currentCenterCell"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5A6C07B-658E-45BD-B84F-A527F6D8B059"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "scale(withCarouselInset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5A6C07B-658E-45BD-B84F-A527F6D8B059 - 5023b132ffa26a92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "3064">
+               </Location>
+               <Location
+                  uuid = "E5A6C07B-658E-45BD-B84F-A527F6D8B059 - 5023b132ffa26a73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "3064">
+               </Location>
+               <Location
+                  uuid = "E5A6C07B-658E-45BD-B84F-A527F6D8B059 - 5023b132ffa26a54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "3064">
+               </Location>
+               <Location
+                  uuid = "E5A6C07B-658E-45BD-B84F-A527F6D8B059 - 5023b132ffa26bc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "3064">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD08CE42-F19D-4B61-A69C-D376E9680D28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "scale(withCarouselInset:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71898EF1-6B58-465B-880F-F4FD3D8EEC42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "scale(withCarouselInset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71898EF1-6B58-465B-880F-F4FD3D8EEC42 - 5023b132ffa26cef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "3192">
+               </Location>
+               <Location
+                  uuid = "71898EF1-6B58-465B-880F-F4FD3D8EEC42 - 5023b132ffa26864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.ScalingCarouselCell.scale(withCarouselInset: CoreGraphics.CGFloat) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/ScalingCarousel/ScalingCarouselCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "2912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4CB91DB-D19D-4971-8704-F3CF0B885580"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "SignUpVM"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E4CB91DB-D19D-4971-8704-F3CF0B885580 - fcb9c37b34c8b86c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.CharacterModel&gt;) -&gt; () in atoStudy.SignUpVM.getCharacterItems(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "E4CB91DB-D19D-4971-8704-F3CF0B885580 - 33952c743a52c6bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpVM.getCharacterItems(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A70BAF31-D703-4C00-8F81-EA1F43BBA22B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "SignUpVM"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E306A0F-863A-4B41-9154-52BDC1AC7D70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/UserProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "logoutActionButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CA89C5A-3A55-4BF9-9436-ABF9666BAC1A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB32788C-46F5-411F-AC99-13A2D0CEF5A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "setUpUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46DCC7A8-EC53-4E02-B9A7-F9BD4E80580D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/Network/AtoStudyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "postRegist(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B61FCA6-A7BF-4720-B978-8AF6DA55C49D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/Network/AtoStudyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "postRegistError(param:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C28CBF35-1711-4424-B9A3-E5A349B746E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/Network/AtoStudyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "post(_:jsonParameters:method:headers:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C28CBF35-1711-4424-B9A3-E5A349B746E0 - a95ce9ef0826a0c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static atoStudy.AtoStudyAPI.post&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(_: Foundation.URL, jsonParameters: &#x3c4;_0_1, method: Alamofire.HTTPMethod, headers: Swift.Optional&lt;Alamofire.HTTPHeaders&gt;) -&gt; RxSwift.Observable&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/Network/AtoStudyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+               <Location
+                  uuid = "C28CBF35-1711-4424-B9A3-E5A349B746E0 - a5058455941a8870"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;&#x3c4;_0_0&gt;) -&gt; RxSwift.Disposable in static atoStudy.AtoStudyAPI.post&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(_: Foundation.URL, jsonParameters: &#x3c4;_0_1, method: Alamofire.HTTPMethod, headers: Swift.Optional&lt;Alamofire.HTTPHeaders&gt;) -&gt; RxSwift.Observable&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/Network/AtoStudyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9E1BFED-7529-421B-83D3-F2C4620C2E7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "doneActionButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3190F074-E258-4695-917B-F6764F44DBAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/View/SignUpCharactersVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "doneActionButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3190F074-E258-4695-917B-F6764F44DBAF - 338e9c51e179c2c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in atoStudy.SignUpCharactersVC.doneActionButton(Any) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "3190F074-E258-4695-917B-F6764F44DBAF - 338e9c51e179c26e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in atoStudy.SignUpCharactersVC.doneActionButton(Any) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C358ED4B-D675-4283-89B9-610BDD84BC0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "postRegistUser(action:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C358ED4B-D675-4283-89B9-610BDD84BC0B - 1b2bbea37c03c18b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1940">
+               </Location>
+               <Location
+                  uuid = "C358ED4B-D675-4283-89B9-610BDD84BC0B - 1b2bbea37c03c18b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1564">
+               </Location>
+               <Location
+                  uuid = "C358ED4B-D675-4283-89B9-610BDD84BC0B - 1b2bbea37c03c18b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "postRegistErrorUser(action:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - d4e5d15fd93a4152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistErrorModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1900">
+               </Location>
+               <Location
+                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - b4efa9439360cd7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - d4e5d15fd93a465a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistErrorModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - d4e5d15fd93a46d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistErrorModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
