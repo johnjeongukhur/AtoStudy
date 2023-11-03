@@ -14,8 +14,8 @@
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -135,69 +135,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E634C590-AA88-43FC-9607-E06AE7388E02"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "atoStudy/View/SignUpNickNameVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "keyboardWillShow(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E634C590-AA88-43FC-9607-E06AE7388E02 - f17d8dc246427942"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "atoStudy.SignUpNickNameVC.keyboardWillShow(Foundation.Notification) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "824">
-               </Location>
-               <Location
-                  uuid = "E634C590-AA88-43FC-9607-E06AE7388E02 - 9805da78386f7f97"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in atoStudy.SignUpNickNameVC.keyboardWillShow(Foundation.Notification) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "E634C590-AA88-43FC-9607-E06AE7388E02 - f17d8dc246427923"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "atoStudy.SignUpNickNameVC.keyboardWillShow(Foundation.Notification) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpNickNameVC.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "768">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "DEEB325E-961D-4C42-9DF0-C9B770635193"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -205,8 +142,8 @@
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
             landmarkType = "7">
             <Locations>
@@ -253,8 +190,8 @@
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -269,8 +206,8 @@
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "collectionView(_:cellForItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -803,8 +740,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
-            landmarkName = "SignUpVM"
-            landmarkType = "3">
+            landmarkName = "getCharacterItems(action:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "E4CB91DB-D19D-4971-8704-F3CF0B885580 - fcb9c37b34c8b86c"
@@ -843,7 +780,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "A70BAF31-D703-4C00-8F81-EA1F43BBA22B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "atoStudy/ViewModel/SignUpVM.swift"
@@ -881,8 +818,8 @@
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "scrollViewDidScroll(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -897,8 +834,8 @@
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "setUpUI()"
             landmarkType = "7">
          </BreakpointContent>
@@ -986,31 +923,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C9E1BFED-7529-421B-83D3-F2C4620C2E7A"
+            uuid = "3190F074-E258-4695-917B-F6764F44DBAF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "atoStudy/View/SignUpCharactersVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "doneActionButton(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3190F074-E258-4695-917B-F6764F44DBAF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "atoStudy/View/SignUpCharactersVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "doneActionButton(_:)"
             landmarkType = "7">
             <Locations>
@@ -1044,6 +965,21 @@
                   endingLineNumber = "36"
                   offsetFromSymbolStart = "948">
                </Location>
+               <Location
+                  uuid = "3190F074-E258-4695-917B-F6764F44DBAF - 338e9c51e179c24f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in atoStudy.SignUpCharactersVC.doneActionButton(Any) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/View/SignUpCharactersVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "740">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1051,14 +987,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C358ED4B-D675-4283-89B9-610BDD84BC0B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "atoStudy/ViewModel/SignUpVM.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "postRegistUser(action:)"
             landmarkType = "7">
             <Locations>
@@ -1107,85 +1043,70 @@
                   endingLineNumber = "79"
                   offsetFromSymbolStart = "1384">
                </Location>
+               <Location
+                  uuid = "C358ED4B-D675-4283-89B9-610BDD84BC0B - 1b2bbea37c03c10f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistUser(action: () -&gt; ()) -&gt; ()"
+                  moduleName = "atoStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1376">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE"
+            uuid = "0DD7D6C4-C18E-4281-BFBA-61B1E103E0D9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "atoStudy/ViewModel/SignUpVM.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "postRegistUser(action:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7EF4528-6C78-4E87-90F5-EBCE53E65774"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "postRegistErrorUser(action:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - d4e5d15fd93a4152"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistErrorModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "1900">
-               </Location>
-               <Location
-                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - b4efa9439360cd7e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "736">
-               </Location>
-               <Location
-                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - d4e5d15fd93a465a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistErrorModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "360">
-               </Location>
-               <Location
-                  uuid = "F267FC8C-DB6D-4FBC-98CD-A364E8A8D2EE - d4e5d15fd93a46d6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (RxSwift.Event&lt;atoStudy.RegistErrorModel&gt;) -&gt; () in atoStudy.SignUpVM.postRegistErrorUser(action: () -&gt; ()) -&gt; ()"
-                  moduleName = "atoStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/johnhur/Documents/Swift-Colab/atoStudy/atoStudy/ViewModel/SignUpVM.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "108"
-                  endingLineNumber = "108"
-                  offsetFromSymbolStart = "700">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B15A5ED3-8556-4691-9A45-E32B1BD51E6C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "atoStudy/ViewModel/SignUpVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "postRegistUser(action:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

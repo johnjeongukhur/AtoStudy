@@ -14,26 +14,18 @@ class SignUpCharactersVC: UIViewController {
 
     @IBOutlet weak var explainTextLabel: UILabel!
     
-    
     @IBOutlet weak var carouselView: ScalingCarouselView!
     
     @IBOutlet weak var doneButton: UIButton!
     
-    var charSeq: Int = 0
-    
     @IBAction func doneActionButton(_ sender: Any) {
-        if let charSeq = viewModel.characterItems.value?.data?[charSeq].characterSeq {
-            viewModel.characterSeq = charSeq
-        }
-        
-        viewModel.postRegist {
-            if self.viewModel.result ?? false {
+        viewModel.postRegist { value in
+            if value {
                 self.performSegue(withIdentifier: "goToUserProfileVC", sender: self)
             } else {
                 self.showAlert(message: self.viewModel.message ?? "")
             }
         }
-        
     }
     
     override func viewDidLoad() {
@@ -118,7 +110,9 @@ extension SignUpCharactersVC: UICollectionViewDelegate {
         
         guard let currentCenterIndex = carouselView.currentCenterCellIndex?.row else { return }
         
-        charSeq = currentCenterIndex
+        if let charSeq = viewModel.characterItems.value?.data?[currentCenterIndex].characterSeq {
+            viewModel.characterSeq = charSeq
+        }
     }
 }
 
