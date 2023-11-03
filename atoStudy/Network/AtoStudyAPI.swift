@@ -113,9 +113,9 @@ extension AtoStudyAPI {
 }
 
 struct RegistParam: Codable {
-    let snsType: String
-    let nickname: String
-    let character: Int
+    var snsType: String
+    var nickname: String
+    var character: Int
 }
 
 enum APIError: Error {

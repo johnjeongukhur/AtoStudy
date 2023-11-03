@@ -25,7 +25,7 @@ class SignUpNickNameVC: UIViewController {
     
     @IBAction func nextActionButton(_ sender: Any) {
         if let nickname = nickNameTextField.text, isNicknameValid(nickname) {
-            viewModel.nickname = nickname
+            viewModel.userRequestParam.nickname = nickname
             performSegue(withIdentifier: "goToCharacterVC", sender: self)
         }
     }

@@ -37,22 +37,22 @@ class LoginVC: UIViewController {
     
     
     @IBAction func appleLoginActionButton(_ sender: Any) {
-        viewModel.snsType = .apple
+        viewModel.userRequestParam.snsType = SnsType.apple.snsText
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
     
     @IBAction func kakaoLoginActionButton(_ sender: Any) {
-        viewModel.snsType = .kakao
+        viewModel.userRequestParam.snsType = SnsType.kakao.snsText
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
     
     @IBAction func naverLoginActionButton(_ sender: Any) {
-        viewModel.snsType = .naver
+        viewModel.userRequestParam.snsType = SnsType.naver.snsText
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
     
     @IBAction func googleLoginActionButton(_ sender: Any) {
-        viewModel.snsType = .google
+        viewModel.userRequestParam.snsType = SnsType.google.snsText
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
     

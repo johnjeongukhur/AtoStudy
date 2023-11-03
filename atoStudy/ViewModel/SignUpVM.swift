@@ -16,9 +16,7 @@ class SignUpVM {
     var characterItems = BehaviorRelay<CharacterModel?>(value: nil)
     
     //회원가입 요청 정보
-    var snsType: SnsType?
-    var nickname: String?
-    var characterSeq: Int?
+    var userRequestParam: RegistParam = RegistParam(snsType: SnsType.apple.snsText, nickname: "", character: 1)
     
     //회원가입 후 유저 응답 정보
     var result: Bool?
@@ -67,15 +65,15 @@ class SignUpVM {
         }
     }
     
-    //TODO: 회원가입 함수
+    //MARK: 회원가입 함수
     func postRegistUser(action: @escaping (Bool) -> Void) {
-        AtoStudyAPI.postRegist(param: RegistParam(snsType: snsType?.snsText ?? "", nickname: nickname ?? "", character: characterSeq ?? 1))
+        AtoStudyAPI.postRegist(param: userRequestParam)
             .observe(on: MainScheduler.instance)
             .subscribe { [weak self] event in
                 switch event {
                 case .next(let item):
                     if item.result ?? false {
-                        saveSnsType(self?.snsType?.snsText ?? "")
+                        saveSnsType(self?.userRequestParam.snsType ?? "")
                         
                         self?.userSns = item.data?.snsType ?? ""
                         self?.userNickname = item.data?.nickname ?? ""
@@ -97,7 +95,7 @@ class SignUpVM {
     }
     
     func postRegistErrorUser(action: @escaping () -> Void) {
-        AtoStudyAPI.postRegistError(param: RegistParam(snsType: snsType?.snsText ?? "", nickname: nickname ?? "", character: characterSeq ?? 1))
+        AtoStudyAPI.postRegistError(param: userRequestParam)
             .observe(on: MainScheduler.instance)
             .subscribe { [weak self] event in
                 switch event {
@@ -113,7 +111,4 @@ class SignUpVM {
             }
             .disposed(by: disposeBag)
     }
-
-    
-    
 }
