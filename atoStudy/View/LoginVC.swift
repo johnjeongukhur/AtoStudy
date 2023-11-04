@@ -37,23 +37,19 @@ class LoginVC: UIViewController {
     
     
     @IBAction func appleLoginActionButton(_ sender: Any) {
-        viewModel.userRequestParam?.snsType = SnsType.apple.snsText
-        performSegue(withIdentifier: "goToNickNameVC", sender: self)
+        nextPage(saveSns: SnsType.apple.snsText)
     }
     
     @IBAction func kakaoLoginActionButton(_ sender: Any) {
-        viewModel.userRequestParam?.snsType = SnsType.kakao.snsText
-        performSegue(withIdentifier: "goToNickNameVC", sender: self)
+        nextPage(saveSns: SnsType.kakao.snsText)
     }
     
     @IBAction func naverLoginActionButton(_ sender: Any) {
-        viewModel.userRequestParam?.snsType = SnsType.naver.snsText
-        performSegue(withIdentifier: "goToNickNameVC", sender: self)
+        nextPage(saveSns: SnsType.naver.snsText)
     }
     
     @IBAction func googleLoginActionButton(_ sender: Any) {
-        viewModel.userRequestParam?.snsType = SnsType.google.snsText
-        performSegue(withIdentifier: "goToNickNameVC", sender: self)
+        nextPage(saveSns: SnsType.google.snsText)
     }
     
     @IBOutlet weak var recentLoginMidX: NSLayoutConstraint!
@@ -63,6 +59,11 @@ class LoginVC: UIViewController {
         
         setUpUI()
         checkRecentLogin()
+    }
+    
+    func nextPage(saveSns: String) {
+        viewModel.userRequestParam?.snsType = saveSns
+        performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
         
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
