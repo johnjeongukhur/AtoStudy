@@ -83,7 +83,7 @@ class UserProfileVC: UIViewController {
 
 extension UserProfileVC {
     func showLogoutAlert(completion: (() -> Void)? = nil) {
-        let alertController = UIAlertController(title: "알림", message: "로그아웃 하시겠습니까?", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "알림", message: "로그아웃 하시겠어요?", preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "확인", style: .default) { _ in
             self.navigationController?.popToRootViewController(animated: true)
             completion?()
@@ -100,7 +100,7 @@ extension UserProfileVC {
 
 extension UserProfileVC {
     func showNewUserAlert(completion: (() -> Void)? = nil) {
-        let alertController = UIAlertController(title: "알림", message: "회원가입을 축하드립니다!", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "알림", message: "회원가입을 축하해요! :)", preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "확인", style: .default) { _ in
             completion?()
         }
