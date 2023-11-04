@@ -28,7 +28,7 @@ class UserProfileVC: UIViewController {
     @IBOutlet weak var logoutButton: UIButton!
     
     @IBAction func logoutActionButton(_ sender: Any) {
-        showAlert()
+        showLogoutAlert()
     }
     
     
@@ -50,6 +50,9 @@ class UserProfileVC: UIViewController {
     }
 
     func setUpUI() {
+        // 회원가입 API 호출 후 해당 Alert 추가
+        showNewUserAlert()
+        
         infoBackgroundView.layer.cornerRadius = 8
         logoutButton.layer.cornerRadius = 16
         
@@ -77,7 +80,7 @@ class UserProfileVC: UIViewController {
 }
 
 extension UserProfileVC {
-    func showAlert(completion: (() -> Void)? = nil) {
+    func showLogoutAlert(completion: (() -> Void)? = nil) {
         let alertController = UIAlertController(title: "알림", message: "로그아웃 하시겠습니까?", preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "확인", style: .default) { _ in
             self.navigationController?.popToRootViewController(animated: true)
@@ -92,3 +95,16 @@ extension UserProfileVC {
         self.present(alertController, animated: true, completion: nil)
     }
 }
+
+extension UserProfileVC {
+    func showNewUserAlert(completion: (() -> Void)? = nil) {
+        let alertController = UIAlertController(title: "알림", message: "회원가입을 축하드립니다!", preferredStyle: .alert)
+        let confirmAction = UIAlertAction(title: "확인", style: .default) { _ in
+            completion?()
+        }
+        
+        alertController.addAction(confirmAction)
+        self.present(alertController, animated: true, completion: nil)
+    }
+}
+
