@@ -28,7 +28,7 @@ class UserProfileVC: UIViewController {
     @IBOutlet weak var logoutButton: UIButton!
     
     @IBAction func logoutActionButton(_ sender: Any) {
-        self.navigationController?.popToRootViewController(animated: true)
+        showAlert()
     }
     
     
@@ -74,6 +74,21 @@ class UserProfileVC: UIViewController {
         //로그아웃 텍스트
         logoutButton.titleLabel?.font = UIFont(name: AtoStudyFont.Bold.font, size: 16.0)
     }
-    
-    
+}
+
+extension UserProfileVC {
+    func showAlert(completion: (() -> Void)? = nil) {
+        let alertController = UIAlertController(title: "알림", message: "로그아웃 하시겠습니까?", preferredStyle: .alert)
+        let confirmAction = UIAlertAction(title: "확인", style: .default) { _ in
+            self.navigationController?.popToRootViewController(animated: true)
+            completion?()
+        }
+        let cancelAction = UIAlertAction(title: "취소", style: .destructive) { _ in
+            completion?()
+        }
+        
+        alertController.addAction(confirmAction)
+        alertController.addAction(cancelAction)
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
