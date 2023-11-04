@@ -16,7 +16,7 @@ class SignUpVM {
     var characterItems = BehaviorRelay<CharacterModel?>(value: nil)
     
     //회원가입 요청 정보
-    var userRequestParam: RegistParam = RegistParam(snsType: SnsType.apple.snsText, nickname: "", character: 1)
+    var userRequestParam: RegistParam? = RegistParam(snsType: SnsType.apple.snsText, nickname: "", character: 1)
     
     //회원가입 후 유저 응답 정보
     var result: Bool?
@@ -48,13 +48,13 @@ class SignUpVM {
             }
             .disposed(by: disposeBag)
     }
-    
-    // 회원가입 성공과 실패 Model의 "data" 타입이 달라 다른 모델로 같은 API 두 번 호출
-    // 추후 Error Case RegistModel의 data 영역을 null 값으로 보내면 하나만 호출하도록 변경
-    func postRegist(action: @escaping (Bool) -> Void) {
+    /* MARK: Model Decoding Issue
+     회원가입 성공과 실패 Model의 "data" 타입이 달라 다른 모델로 같은 API 두 번 호출
+     추후 Error Case RegistModel의 data 영역을 null 값으로 보내면 하나만 호출하도록 변경
+     */
+        func postRegist(action: @escaping (Bool) -> Void) {
         postRegistUser { apiResult in
             if apiResult {
-                print("가입 성공")
                 action(true)
             } else {
                 // 디코딩 실패하면 false를 던져 postRegistErrorUser 한 번 더 호출
@@ -67,13 +67,14 @@ class SignUpVM {
     
     //MARK: 회원가입 함수
     func postRegistUser(action: @escaping (Bool) -> Void) {
-        AtoStudyAPI.postRegist(param: userRequestParam)
+        guard let param = userRequestParam else { return }
+        AtoStudyAPI.postRegist(param: param)
             .observe(on: MainScheduler.instance)
             .subscribe { [weak self] event in
                 switch event {
                 case .next(let item):
                     if item.result ?? false {
-                        saveSnsType(self?.userRequestParam.snsType ?? "")
+                        saveSnsType(self?.userRequestParam?.snsType ?? "")
                         
                         self?.userSns = item.data?.snsType ?? ""
                         self?.userNickname = item.data?.nickname ?? ""
@@ -95,7 +96,8 @@ class SignUpVM {
     }
     
     func postRegistErrorUser(action: @escaping () -> Void) {
-        AtoStudyAPI.postRegistError(param: userRequestParam)
+        guard let param = userRequestParam else { return }
+        AtoStudyAPI.postRegistError(param: param)
             .observe(on: MainScheduler.instance)
             .subscribe { [weak self] event in
                 switch event {
