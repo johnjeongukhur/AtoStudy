@@ -17,6 +17,8 @@ class SignUpNickNameVC: UIViewController {
     
     @IBOutlet weak var textFieldRemoveButton: UIButton!
     
+    @IBOutlet weak var cautionTextLabel: UILabel!
+    
     @IBOutlet weak var nextButton: UIButton!
     
     @IBAction func textFieldRemoveActionButton(_ sender: Any) {
@@ -25,8 +27,11 @@ class SignUpNickNameVC: UIViewController {
     
     @IBAction func nextActionButton(_ sender: Any) {
         if let nickname = nickNameTextField.text, isNicknameValid(nickname) {
-            viewModel.userRequestParam.nickname = nickname
+            viewModel.userRequestParam?.nickname = nickname
             performSegue(withIdentifier: "goToCharacterVC", sender: self)
+        } else {
+            cautionTextLabel.isHidden = false
+            cautionTextAnimation()
         }
     }
 
@@ -63,8 +68,10 @@ class SignUpNickNameVC: UIViewController {
                 
                 if let nickname = self.nickNameTextField.text, self.isNicknameValid(nickname) {
                     self.nextButton.backgroundColor = AtoStudyColor.Primary900.color
+                    self.cautionTextLabel.isHidden = true
                 } else {
                     self.nextButton.backgroundColor = AtoStudyColor.Black500.color
+                    self.cautionTextLabel.isHidden = false
                 }
             } else {
                 self.nickNameBottomLine.backgroundColor = AtoStudyColor.Black400.color
@@ -100,6 +107,18 @@ class SignUpNickNameVC: UIViewController {
         }
     }
     
+    func cautionTextAnimation() {
+        UIView.animate(withDuration: 0.1, delay: 0, options: [.repeat, .autoreverse], animations: {
+            self.cautionTextLabel.transform = CGAffineTransform(translationX: 5, y: 0)
+        }, completion: nil)
+        
+        //Stop Animation
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1 * 6) {
+            self.cautionTextLabel.transform = CGAffineTransform(translationX: 0, y: 0)
+            self.cautionTextLabel.layer.removeAllAnimations()
+        }
+    }
+    
     // 닉네임 유효성 체크
     func isNicknameValid(_ nickname: String) -> Bool {
         let regex = "^[가-힣a-zA-Z0-9]{2,12}$"
@@ -117,6 +136,10 @@ class SignUpNickNameVC: UIViewController {
         nickNameBottomLine.backgroundColor = AtoStudyColor.Black400.color
         
         textFieldRemoveButton.isHidden = true
+        
+        cautionTextLabel.isHidden = true
+        cautionTextLabel.font = UIFont(name: AtoStudyFont.Regular.font, size: 12.0)
+        cautionTextLabel.textColor = AtoStudyColor.Primary900.color
         
         nextButton.layer.cornerRadius = 16.0
         nextButton.titleLabel?.font = UIFont(name: AtoStudyFont.Bold.font, size: 16.0)

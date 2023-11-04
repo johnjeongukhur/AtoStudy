@@ -111,7 +111,7 @@ extension SignUpCharactersVC: UICollectionViewDelegate {
         guard let currentCenterIndex = carouselView.currentCenterCellIndex?.row else { return }
         
         if let charSeq = viewModel.characterItems.value?.data?[currentCenterIndex].characterSeq {
-            viewModel.userRequestParam.character = charSeq
+            viewModel.userRequestParam?.character = charSeq
         }
     }
 }

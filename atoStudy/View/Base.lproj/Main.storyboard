@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GbR-1Z-dfy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GbR-1Z-dfy">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -208,6 +208,12 @@
                                     <action selector="nextActionButton:" destination="S2T-2w-sRK" eventType="touchUpInside" id="HBG-C1-gYo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글, 영문 또는 숫자 2~12자를 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxg-W3-BVS">
+                                <rect key="frame" x="20" y="231.5" width="218" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zhO-Nf-hiz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -220,15 +226,18 @@
                             <constraint firstItem="qQC-7E-IFL" firstAttribute="leading" secondItem="zhO-Nf-hiz" secondAttribute="leading" constant="20" id="DCv-G2-VL8"/>
                             <constraint firstItem="zhO-Nf-hiz" firstAttribute="trailing" secondItem="MMP-Cy-fpU" secondAttribute="trailing" constant="28" id="Dh5-NL-wNU"/>
                             <constraint firstItem="zhO-Nf-hiz" firstAttribute="bottom" secondItem="lMA-Mq-Zgo" secondAttribute="bottom" constant="40" id="Ebb-dQ-hHK"/>
+                            <constraint firstItem="Lxg-W3-BVS" firstAttribute="leading" secondItem="zhO-Nf-hiz" secondAttribute="leading" constant="20" id="FVH-af-8BQ"/>
                             <constraint firstItem="zhO-Nf-hiz" firstAttribute="trailing" secondItem="qyR-L6-3sj" secondAttribute="trailing" constant="20" id="IUS-7h-znJ"/>
                             <constraint firstItem="1Ba-PA-bCt" firstAttribute="leading" secondItem="zhO-Nf-hiz" secondAttribute="leading" constant="20" id="P97-JY-P60"/>
                             <constraint firstItem="lMA-Mq-Zgo" firstAttribute="leading" secondItem="zhO-Nf-hiz" secondAttribute="leading" constant="20" id="Vye-f9-wTc"/>
                             <constraint firstItem="zhO-Nf-hiz" firstAttribute="trailing" secondItem="qQC-7E-IFL" secondAttribute="trailing" constant="150" id="ePM-Uh-dPE"/>
                             <constraint firstItem="qQC-7E-IFL" firstAttribute="top" secondItem="zhO-Nf-hiz" secondAttribute="top" constant="16" id="gy3-sA-6R0"/>
+                            <constraint firstItem="Lxg-W3-BVS" firstAttribute="top" secondItem="qyR-L6-3sj" secondAttribute="bottom" constant="10" id="tWx-Vd-PsK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NJ0-BL-lhL"/>
                     <connections>
+                        <outlet property="cautionTextLabel" destination="Lxg-W3-BVS" id="jKY-SM-mno"/>
                         <outlet property="explainTextLabel" destination="qQC-7E-IFL" id="w4i-AD-3h5"/>
                         <outlet property="nextButton" destination="lMA-Mq-Zgo" id="JGu-6c-Bdg"/>
                         <outlet property="nextButtonBottomAnchor" destination="Ebb-dQ-hHK" id="A4U-l6-T31"/>
