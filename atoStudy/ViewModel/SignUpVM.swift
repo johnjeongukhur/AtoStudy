@@ -26,6 +26,14 @@ class SignUpVM {
     var userNickname: String?
     var userCharacterKo: String?
     
+    // 로그아웃 시 유저정보 지우는 함수
+    func cleanUserInfo() {
+        userRequestParam = nil
+        userSns = nil
+        userNickname = nil
+        userCharacterKo = nil
+    }
+    
     // Get Character func
     func getCharacterItems(action: @escaping () -> Void) {
         AtoStudyAPI.getCharacter()

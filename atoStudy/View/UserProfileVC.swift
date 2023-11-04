@@ -32,7 +32,6 @@ class UserProfileVC: UIViewController {
         showLogoutAlert()
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpUI()
@@ -86,6 +85,7 @@ extension UserProfileVC {
         let alertController = UIAlertController(title: "알림", message: "로그아웃 하시겠어요?", preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "확인", style: .default) { _ in
             self.navigationController?.popToRootViewController(animated: true)
+            self.viewModel.cleanUserInfo()
             completion?()
         }
         let cancelAction = UIAlertAction(title: "취소", style: .destructive) { _ in

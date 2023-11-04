@@ -70,6 +70,7 @@ class LoginVC: UIViewController {
         viewModel.userRequestParam?.snsType = saveSns
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
+    
     // 데이터 전달
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToNickNameVC" {
@@ -86,6 +87,7 @@ class LoginVC: UIViewController {
         recentLoginLabel.font = UIFont(name: AtoStudyFont.Regular.font, size: 12)
     }
     
+    // 최근 로그인한 이력이 있을 때, 해당 SNS 아래 AlertView 노출
     func checkRecentLogin() {
         if ((getSnsType()?.isEmpty) == nil) {
             recentLoginBackgroundView.isHidden = true
