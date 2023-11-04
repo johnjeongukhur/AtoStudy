@@ -45,9 +45,32 @@ class SignUpNickNameVC: UIViewController {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-
+    }
+    
+    func setUpUI() {
+        let backButton = UIBarButtonItem(image: UIImage(named: "chevron_left"), style: .plain, target: self, action: #selector(backButtonTapped))
+        navigationItem.leftBarButtonItem = backButton
+        
+        explainTextLabel.setLineSpacing(spacing: 5)
+        explainTextLabel.font = UIFont(name: AtoStudyFont.Medium.font, size: 24.0)
+        
+        nickNameBottomLine.backgroundColor = AtoStudyColor.Black400.color
+        
+        textFieldRemoveButton.isHidden = true
+        
+        cautionTextLabel.isHidden = true
+        cautionTextLabel.font = UIFont(name: AtoStudyFont.Regular.font, size: 12.0)
+        cautionTextLabel.textColor = AtoStudyColor.Primary900.color
+        
+        nextButton.layer.cornerRadius = 16.0
+        nextButton.titleLabel?.font = UIFont(name: AtoStudyFont.Bold.font, size: 16.0)
     }
 
+    //Navigation Back button
+    @objc func backButtonTapped() {
+        navigationController?.popViewController(animated: true)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToCharacterVC" {
             if let signUpNickNameVC = segue.destination as? SignUpCharactersVC {
@@ -84,7 +107,7 @@ class SignUpNickNameVC: UIViewController {
     
     @objc func keyboardWillShow(_ notification: Notification) {
         if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
-            let contentInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: keyboardSize.height, right: 0.0)
+            let contentInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: keyboardSize.height-15, right: 0.0)
             
             UIView.animate(withDuration: 0.3) {
                 self.nextButtonBottomAnchor.constant = contentInsets.bottom
@@ -126,27 +149,6 @@ class SignUpNickNameVC: UIViewController {
         return predicate.evaluate(with: nickname)
     }
 
-    func setUpUI() {
-        let backButton = UIBarButtonItem(image: UIImage(named: "chevron_left"), style: .plain, target: self, action: #selector(backButtonTapped))
-        navigationItem.leftBarButtonItem = backButton
-        
-        explainTextLabel.setLineSpacing(spacing: 5)
-        explainTextLabel.font = UIFont(name: AtoStudyFont.Medium.font, size: 24.0)
-        
-        nickNameBottomLine.backgroundColor = AtoStudyColor.Black400.color
-        
-        textFieldRemoveButton.isHidden = true
-        
-        cautionTextLabel.isHidden = true
-        cautionTextLabel.font = UIFont(name: AtoStudyFont.Regular.font, size: 12.0)
-        cautionTextLabel.textColor = AtoStudyColor.Primary900.color
-        
-        nextButton.layer.cornerRadius = 16.0
-        nextButton.titleLabel?.font = UIFont(name: AtoStudyFont.Bold.font, size: 16.0)
-    }
     
-    @objc func backButtonTapped() {
-        navigationController?.popViewController(animated: true)
-    }
     
 }
