@@ -75,23 +75,10 @@ extension AtoStudyAPI {
             }
         }
     }
-
-    
-    
     
     static func get<T: Codable>(_ url: URL) -> Observable<T> {
         return makeRequest(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: AtoStudyAPI.headers())
     }
-    
-//    static func post<T: Decodable>(_ url: URL, parameters: [String: Any]) -> Observable<T> {
-//        return makeRequest(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: AtoStudyAPI.headers())
-//    }
-    
-//    static func post<P: Codable>(_ url: URL, parameters: [String: Any]) -> Observable<P> {
-//        return makeRequest(url, method: .post, parameters: parameters, encoding: URLEncoding.httpBody, headers: AtoStudyAPI.headers())
-//    }
-
-
     
 }
 

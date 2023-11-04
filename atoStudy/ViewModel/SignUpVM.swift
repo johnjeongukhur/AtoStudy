@@ -104,6 +104,7 @@ class SignUpVM {
             .disposed(by: disposeBag)
     }
     
+    // 회원가입 디코드 에러 났을떄 해당 함수 실행 됨
     func postRegistErrorUser(action: @escaping () -> Void) {
         guard let param = userRequestParam else { return }
         AtoStudyAPI.postRegistError(param: param)
