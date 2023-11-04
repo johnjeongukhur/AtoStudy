@@ -52,21 +52,21 @@ class SignUpVM {
      회원가입 성공과 실패 Model의 "data" 타입이 달라 다른 모델로 같은 API 두 번 호출
      추후 Error Case RegistModel의 data 영역을 null 값으로 보내면 하나만 호출하도록 변경
      */
-        func postRegist(action: @escaping (Bool) -> Void) {
+    func postRegist(canRegist: @escaping (Bool) -> Void) {
         postRegistUser { apiResult in
             if apiResult {
-                action(true)
+                canRegist(true)
             } else {
                 // 디코딩 실패하면 false를 던져 postRegistErrorUser 한 번 더 호출
                 self.postRegistErrorUser {
-                    action(false)
+                    canRegist(false)
                 }
             }
         }
     }
     
     //MARK: 회원가입 함수
-    func postRegistUser(action: @escaping (Bool) -> Void) {
+    func postRegistUser(isCompleted: @escaping (Bool) -> Void) {
         guard let param = userRequestParam else { return }
         AtoStudyAPI.postRegist(param: param)
             .observe(on: MainScheduler.instance)
@@ -83,11 +83,11 @@ class SignUpVM {
                     self?.result = item.result ?? false
                     self?.message  = item.message ?? ""
                     
-                    action(true)
+                    isCompleted(true)
                 case .error(let error):
                     print("Error: \(error.localizedDescription)")
                     // 디코딩 실패하면 false를 던져 postRegistErrorUser 한 번 더 호출
-                    action(false)
+                    isCompleted(false)
                 default:
                     break
                 }

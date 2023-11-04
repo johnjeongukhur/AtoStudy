@@ -19,8 +19,8 @@ class SignUpCharactersVC: UIViewController {
     @IBOutlet weak var doneButton: UIButton!
     
     @IBAction func doneActionButton(_ sender: Any) {
-        viewModel.postRegist { value in
-            if value {
+        viewModel.postRegist { canRegist in
+            if canRegist {
                 self.performSegue(withIdentifier: "goToUserProfileVC", sender: self)
             } else {
                 self.showAlert(message: self.viewModel.message ?? "")
@@ -50,12 +50,11 @@ class SignUpCharactersVC: UIViewController {
         carouselView.deviceRotated()
     }
 
-    
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToUserProfileVC" {
             if let signUpNickNameVC = segue.destination as? UserProfileVC {
                 signUpNickNameVC.viewModel = self.viewModel
+                signUpNickNameVC.isNewUser = true
             }
         }
     }

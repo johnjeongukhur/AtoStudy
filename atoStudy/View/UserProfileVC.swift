@@ -10,6 +10,7 @@ import UIKit
 class UserProfileVC: UIViewController {
     
     var viewModel: SignUpVM!
+    var isNewUser: Bool = false
     
     @IBOutlet weak var imageView: UIImageView!
 
@@ -51,7 +52,9 @@ class UserProfileVC: UIViewController {
 
     func setUpUI() {
         // 회원가입 API 호출 후 해당 Alert 추가
-        showNewUserAlert()
+        if isNewUser {
+            showNewUserAlert()
+        }
         
         infoBackgroundView.layer.cornerRadius = 8
         logoutButton.layer.cornerRadius = 16
