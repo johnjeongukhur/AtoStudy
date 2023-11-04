@@ -34,7 +34,6 @@ class SignUpNickNameVC: UIViewController {
             cautionTextAnimation()
         }
     }
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +46,15 @@ class SignUpNickNameVC: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToCharacterVC" {
+            if let signUpNickNameVC = segue.destination as? SignUpCharactersVC {
+                signUpNickNameVC.viewModel = self.viewModel
+            }
+        }
+    }
+    
+    //MARK: - Setup UI
     func setUpUI() {
         let backButton = UIBarButtonItem(image: UIImage(named: "chevron_left"), style: .plain, target: self, action: #selector(backButtonTapped))
         navigationItem.leftBarButtonItem = backButton
@@ -69,14 +77,6 @@ class SignUpNickNameVC: UIViewController {
     //Navigation Back button
     @objc func backButtonTapped() {
         navigationController?.popViewController(animated: true)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToCharacterVC" {
-            if let signUpNickNameVC = segue.destination as? SignUpCharactersVC {
-                signUpNickNameVC.viewModel = self.viewModel
-            }
-        }
     }
     
     deinit {

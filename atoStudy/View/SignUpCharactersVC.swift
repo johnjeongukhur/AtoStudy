@@ -30,14 +30,14 @@ class SignUpCharactersVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUpUI()
+
         carouselView.delegate = self
         carouselView.dataSource = self
         
         viewModel.getCharacterItems {
             self.carouselView.reloadData()
         }
-        setUpUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -59,6 +59,7 @@ class SignUpCharactersVC: UIViewController {
         }
     }
     
+    //MARK: - Setup UI
     func setUpUI() {
         let backButton = UIBarButtonItem(image: UIImage(named: "chevron_left"), style: .plain, target: self, action: #selector(backButtonTapped))
         navigationItem.leftBarButtonItem = backButton

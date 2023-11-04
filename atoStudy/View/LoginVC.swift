@@ -70,7 +70,7 @@ class LoginVC: UIViewController {
         viewModel.userRequestParam?.snsType = saveSns
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
     }
-        
+    // 데이터 전달
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToNickNameVC" {
             if let signUpNickNameVC = segue.destination as? SignUpNickNameVC {
@@ -79,6 +79,7 @@ class LoginVC: UIViewController {
         }
     }
     
+    //MARK: - Setup UI
     func setUpUI() {
         recentLoginLabel.setLineSpacing(spacing: 2)
         recentLoginLabel.textAlignment = .center

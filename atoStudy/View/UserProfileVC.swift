@@ -35,14 +35,13 @@ class UserProfileVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUpUI()
+
         navigationController?.setNavigationBarHidden(true, animated: false)
             
         snsInfoTextLabel.text = viewModel.userSns ?? ""
         nickNameInfoTextLabel.text = viewModel.userNickname ?? ""
         characterInfoTextLabel.text = viewModel.userCharacterKo ?? ""
-        
-        setUpUI()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
