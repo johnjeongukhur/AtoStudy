@@ -59,6 +59,7 @@ class SignUpVM {
     /* MARK: Model Decoding Issue
      회원가입 성공과 실패 Model의 "data" 타입이 달라 다른 모델로 같은 API 두 번 호출
      추후 Error Case RegistModel의 data 영역을 null 값으로 보내면 하나만 호출하도록 변경
+     현재 error case의 data에서 String(User nickname)으로 내려오고 있어 이슈 있음.
      */
     func postRegist(canRegist: @escaping (Bool) -> Void) {
         postRegistUser { apiResult in
