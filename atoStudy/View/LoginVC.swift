@@ -61,6 +61,11 @@ class LoginVC: UIViewController {
         checkRecentLogin()
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        checkRecentLogin()
+    }
+    
     func nextPage(saveSns: String) {
         viewModel.userRequestParam?.snsType = saveSns
         performSegue(withIdentifier: "goToNickNameVC", sender: self)
@@ -74,18 +79,11 @@ class LoginVC: UIViewController {
         }
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        checkRecentLogin()
-    }
-    
     func setUpUI() {
         recentLoginLabel.setLineSpacing(spacing: 2)
         recentLoginLabel.textAlignment = .center
         recentLoginLabel.font = UIFont(name: AtoStudyFont.Regular.font, size: 12)
     }
-    
-
     
     func checkRecentLogin() {
         if ((getSnsType()?.isEmpty) == nil) {
