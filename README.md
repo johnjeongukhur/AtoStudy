@@ -1,2 +1,2 @@
 # AtoStudy
-Atostudy 과제 진행
+Atostudy 과제
