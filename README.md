@@ -1,5 +1,5 @@
 # AtoStudy
-Atostudy 과제
+Atostudy 과제 아카이브
 
 ### 사용기술
 UIKIt storyboard, RxSwift, CarouselScalingView, Kingfisher
